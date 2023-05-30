@@ -1,4 +1,4 @@
-from main import get_ascii
+from main import  get_result
 import sys
 
 menu= int(input("Menu\n=======\n1) Character\n2). Word\n:"))
@@ -14,5 +14,5 @@ else:
 
 print('====================\nResults\n====================')
 
-results= get_ascii(word)
+results= get_result(word)
 print('Total {0}'.format(results))
